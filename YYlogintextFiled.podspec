@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YYlogintextFiled"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "登录、注册、验证码输入框样式."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YYLoginTextFeild/Classes/**/*"
+  s.source_files  = "YYLoginTextFiled/Classes/**/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
