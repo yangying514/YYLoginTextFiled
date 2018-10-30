@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YYlogintextFiled"
-  s.version      = "1.0"
+  s.version      = "1.1.1"
   s.summary      = "登录、注册、验证码输入框样式."
 
   # This description is used to generate tags and improve search results.
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                     登录、注册、验证码输入框样式
+                     登录、注册、验证码输入框样式,登录、注册、验证码输入框样式,登录、注册、验证码输入框样式
                    DESC
 
-  s.homepage     = "[https://github.com/yangying514/YYLoginTextFiled](https://github.com/yangying514/YYLoginTextFiled)"
+  s.homepage     = "https://github.com/yangying514/YYLoginTextFiled"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -133,6 +133,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+   s.dependency "JSONKit", "~> 1.4"
 
 end
